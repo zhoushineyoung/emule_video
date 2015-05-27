@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/**
+ * Copyright (c) 2013-2014, 杜卫宾 快速开发平台(http://1.playandroid.duapp.com/)
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+ -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.svo.library"
+    android:versionCode="1"
+    android:versionName="1.0">
+    
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="16"/>
+    
+    <!--#################### UMENG PERMISSIONS START ####################-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <!--#################### UMENG PERMISSIONS END ####################-->
+    
+    <!--#################### JPUSH PERMISSIONS START ####################-->
+    <permission
+        android:name="PACKAGE_NAME.permission.JPUSH_MESSAGE"
+        android:protectionLevel="signature"/>
+    <uses-permission android:name="PACKAGE_NAME.permission.JPUSH_MESSAGE"/>
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <!-- Optional: -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <!--#################### JPUSH PERMISSIONS END ####################-->
+    
+    <!--#################### IFLYTEK PERMISSIONS START ####################-->
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+	<uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<!--#################### IFLYTEK PERMISSIONS END ####################-->
+	
+	<!--#################### BAIDU LOCATION PERMISSIONS START ####################-->
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+	<uses-permission android:name="android.permission.READ_LOGS"/>
+	<uses-permission android:name="android.permission.VIBRATE"/>
+	<uses-permission android:name="android.permission.WRITE_SETTINGS"/> 
+	<!--#################### BAIDU LOCATION PERMISSIONS END ####################-->
+	
+	<!--#################### ZXING PERMISSIONS START ####################-->
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!--#################### ZXING PERMISSIONS START ####################-->
+	
+	<!--#################### DOMOB PERMISSIONS START ####################-->
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <!--#################### DOMOB PERMISSIONS END ####################-->
+    
+    <!--#################### BAIDU_PLAYER PERMISSIONS START ####################-->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <!--#################### BAIDU_PLAYER PERMISSIONS END ####################-->
+    
+    <application
+        android:name="com.rincliu.library.app.RLApplication"
+        android:label="@string/app_name">
+        
+        <!--#################### APP CONFIG START ####################-->
+        <meta-data 
+		    android:name="ENABLE_CRASH_HANDLER"
+		    android:value="true"/>
+        <meta-data 
+		    android:name="ENABLE_PUSH"
+		    android:value="false"/>
+        <meta-data 
+		    android:name="ENABLE_FEEDBACK"
+		    android:value="false"/>
+        <meta-data 
+		    android:name="ENABLE_ANALYTICS"
+		    android:value="false"/>
+        <!--#################### APP CONFIG END ####################-->
+        
+        
+        <activity
+            android:name="com.rincliu.library.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        
+        
+        <!--#################### WEIXIN COMPONENTS START ####################-->
+        <activity
+            android:name="com.rincliu.library.wxapi.WXEntryActivity"
+            android:theme="@android:style/Theme.Translucent"
+            android:exported="true"
+            android:launchMode="singleTop"/>
+        <!--#################### WEIXIN COMPONENTS END ####################-->
+        
+        <!--#################### UMENG COMPONENTS START ####################-->
+        <meta-data 
+		    android:name="UMENG_APPKEY"
+		    android:value="@string/umeng_key"/>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="@string/app_channel" >
+        </meta-data>
+		<activity 
+		    android:name="com.umeng.fb.ui.SendFeedback"
+			android:windowSoftInputMode="adjustResize"/>
+		<activity 
+		    android:name="com.umeng.fb.ui.FeedbackConversations"/>
+		<activity 
+		    android:name="com.umeng.fb.ui.FeedbackConversation"
+			android:configChanges="keyboard"/>
+		<service
+            android:name="com.umeng.common.net.DownloadingService"
+            android:exported="true"
+            android:process=":DownloadingService"/>
+        <!--#################### UMENG COMPONENTS END ####################-->
+        
+        <!--#################### JPUSH COMPONENTS START ####################-->
+        <meta-data 
+            android:name="JPUSH_CHANNEL" 
+            android:value="@string/app_channel"/>
+        <meta-data 
+            android:name="JPUSH_APPKEY" 
+            android:value="@string/jpush_key"/>
+        <activity
+            android:name="cn.jpush.android.ui.PushActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:configChanges="orientation|keyboardHidden" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.ui.PushActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="PACKAGE_NAME"/>
+            </intent-filter>
+        </activity>
+        <service
+            android:name="cn.jpush.android.service.DownloadService"
+            android:enabled="true"
+            android:exported="false"/>
+        <service
+            android:name="cn.jpush.android.service.PushService"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTER"/>
+                <action android:name="cn.jpush.android.intent.REPORT"/>
+                <action android:name="cn.jpush.android.intent.PushService"/>
+                <action android:name="cn.jpush.android.intent.PUSH_TIME"/>
+            </intent-filter>
+        </service>
+        <receiver
+            android:name="cn.jpush.android.service.PushReceiver"
+            android:enabled="true" >
+             <intent-filter android:priority="1000">
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY"/>
+                <category android:name="PACKAGE_NAME"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT"/>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="cn.jpush.android.service.AlarmReceiver"/>
+        <!-- Custom: -->
+        <activity
+            android:name="com.rincliu.library.common.reference.push.RLNotificationActivity"/>
+        <receiver
+            android:name="com.rincliu.library.common.reference.push.RLPushReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTRATION"/>
+                <action android:name="cn.jpush.android.intent.UNREGISTRATION"/>  
+                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED"/>
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED"/>
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED"/>
+                <category android:name="PACKAGE_NAME"/>
+            </intent-filter>
+        </receiver>
+        <!--#################### JPUSH COMPONENTS END ####################-->
+        
+        <!--#################### BAIDU LOCATION COMPONENTS START ####################-->
+        <service android:name="com.baidu.location.f" android:enabled="true"
+			android:process=":remote">
+			<!-- 
+			<intent-filter>
+				<action android:name="com.baidu.location.service_v2.9"/>
+			</intent-filter>
+			-->
+		</service>
+		<!--#################### BAIDU LOCATION COMPONENTS END ####################-->
+        
+        <!--#################### ZXING COMPONENTS START ####################-->
+        <activity 
+            android:name="com.rincliu.library.common.persistence.zxing.RLScanActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="portrait"/>
+        <!--#################### ZXING COMPONENTS END ####################-->
+        
+        <!--#################### DOMOB COMPONENTS START ####################-->
+        <activity
+            android:name="cn.domob.android.ads.DomobActivity"/>
+        <!--#################### DOMOB COMPONENTS END ####################-->
+        
+    </application>
+</manifest>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="weixin_not_install">未安装微信</string>
+    <string name="weixin_not_support_api">当前微信版本不支持此接口</string>
+    <string name="weixin_not_support_timeline">当前微信版本不支持朋友圈</string>
+    <string name="weixin_send_success">已成功分享到微信</string>
+    <string name="weixin_send_failed">同步到微信失败</string>
+	<string name="weixin_send_cancel">已取消分享到微信</string>
+	<string name="weixin_send_deny">被拒绝</string>
+	<string name="weixin_send_unknown_error">未知错误</string>
+</resources>

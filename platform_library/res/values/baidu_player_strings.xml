@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="downloading">downloading:\n</string>
+    <string name="ret_failed_already_installed">Video engine already installed</string>
+    <string name="ret_failed_already_running">Video engine alread running</string>
+    <string name="ret_failed_invalid_apk">Invalid apk</string>
+    <string name="ret_failed_network">Network error</string>
+    <string name="ret_failed_others">Unknown error</string>
+    <string name="ret_failed_storage_io">IO error</string>
+    <string name="ret_new_package_installed">Video engine installed</string>
+    <string name="ret_no_new_package">No new package for video engine</string>
+    <string name="ret_stopped">Stopped</string>
+</resources>

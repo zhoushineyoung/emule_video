@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>	
+    
+	<string-array name="webview_items">
+        <item>提取下载链接</item>
+        <item>清空缓存</item>
+        <item>清空Cookie</item>
+        <item>清空浏览记录</item>
+    </string-array>
+    
+</resources>

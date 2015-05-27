@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/**
+ * Copyright (c) 2013-2014, 杜卫宾 快速开发平台(http://1.playandroid.duapp.com/)
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+ -->
+<resources>
+    <!--  -->
+    <declare-styleable name="ViewFlow">
+        <attr name="bufferedItemCount" format="integer" />
+        <attr name="autoScrollDuration" format="integer" />
+    </declare-styleable>
+    <!--  -->
+    <declare-styleable name="Indicator">
+        <attr name="innerMargin" format="dimension" />
+		<attr name="fadeOutTime" format="integer" />
+		<!-- CircleIndicator -->
+		<attr name="circleRadius" format="dimension" />
+        <attr name="circleActiveColor" format="reference|color" />
+        <attr name="circleInactiveColor" format="reference|color" />
+		<attr name="circleActiveType">
+			<flag name="stroke" value="0" />
+			<flag name="fill" value="1" />
+		</attr>
+		<attr name="circleInactiveType">
+			<flag name="stroke" value="0" />
+			<flag name="fill" value="1" />
+		</attr>
+		<!-- BitmapIndicator -->
+		<attr name="bitmapActive" format="reference" />
+        <attr name="bitmapInactive" format="reference" />
+    </declare-styleable> 
+</resources>

@@ -1,0 +1,59 @@
+<resources>
+    
+	<style name="COMMON_PAGE_THEME" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    
+    <style name="LAUNCH_PAGE_THEME" parent="COMMON_PAGE_THEME">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    
+    <style name="SETTING_PAGE_THEME" parent="COMMON_PAGE_THEME">
+		<item name="android:textColorPrimaryInverse">@android:color/secondary_text_light</item> 
+    </style>
+    
+    <style name="DIALOG_THEME" parent="android:Theme.Dialog">
+	    <item name="android:padding">0dp</item>
+	    <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>         
+        <item name="android:windowContentOverlay">@null</item> 
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:background">@drawable/dialog_bg</item>
+        <item name="android:windowBackground">@android:color/transparent</item>       
+	</style>
+	<style name="BalanceDialog" parent="android:style/Theme.Dialog">
+		<item name="android:windowFrame">@null</item>
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:background">@android:color/transparent</item>
+		<item name="android:windowBackground">@drawable/yue_balancelayoutshape</item>
+		<item name="android:backgroundDimEnabled">true</item>
+		<item name="android:windowContentOverlay">@null</item>
+	</style>
+    <style name="ANIMATIONS_FADE" parent="android:Animation" mce_bogus="1">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+    
+    <style name="ANIMATIONS_SLIDE_FROM_BOTTOM" parent="android:Animation" mce_bogus="1">
+        <item name="android:windowEnterAnimation">@anim/slide_in_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_to_bottom</item>
+    </style>
+    
+    <style name="ANIMATIONS_SLIDE_FROM_TOP" parent="android:Animation" mce_bogus="1">
+        <item name="android:windowEnterAnimation">@anim/slide_in_from_top</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_to_top</item>
+    </style>
+    
+    <style name="DIALOG_PADDINGS">
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:minWidth">200dp</item>
+        <item name="android:minHeight">100dp</item>
+    </style>
+    
+</resources>

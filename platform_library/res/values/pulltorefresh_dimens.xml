@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="ptr_header_footer_left_right_padding">24dp</dimen>
+    <dimen name="ptr_header_footer_top_bottom_padding">12dp</dimen>
+
+</resources>

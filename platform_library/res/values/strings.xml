@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+	<!-- #################### APP INFO START #################### -->
+    <string name="app_name">RINC</string>
+    <string name="app_channel">default</string>
+	<!-- #################### APP INFO END #################### -->
+	
+	<!-- #################### KEYS START #################### -->
+	<string name="domob_key"></string>
+	<string name="umeng_key"></string>
+	<string name="jpush_key"></string>
+	<string name="weixin_key"></string>
+	<string name="weibo_key"></string>
+	<string name="iflytek_key"></string>
+	<!-- #################### KEYS END #################### -->
+	
+	<!-- Crash strs -->
+	<string name="exception_occured">An exception occured</string>
+	
+	<!-- WebView -->
+	<string name="invalid_url">Invalid url address</string>
+	<string name="download_file">Downlaod file</string>
+    <string name="cache_cleared">Cache has been cleaned</string>
+    <string name="has_no_cookie">No cookie</string>
+    <string name="cookie_cleared">Cookie has bean cleaned</string>
+    <string name="history_cleared">History has been cleaned</string>
+    <string name="has_no_history">No history</string>
+    <string name="deny_clear_cookie">Cookie is not allowed to be cleaned in current page</string>
+    
+    <!-- AppUtil -->
+    <string name="inner_cache_cleared">Inner cache has been cleaned</string>
+    <string name="external_cache_cleared">External cache has been cleaned</string>
+    <string name="inner_data_cleared">Inner data has been cleaned</string>
+    <string name="external_data_cleared">External data has been cleaned</string>
+    
+    <string name="select_item">Options</string>
+    
+    <string name="launch_app_failed">Failed to launch this app</string>
+    
+    <string name="request_root_failed">Failed to request root permission</string>
+    
+    <string name="cannot_access_file">Cannot access this file or directory</string>
+    
+    <string name="check_sdcard">no available external storage</string>
+    
+    <string name="is_checking_update">Checking update&#8230;</string>
+    <!-- 文件选择器 -->
+    <string name="filechooser_ok">OK</string>
+    <string name="filechooser_cancel">Cancel</string>
+    <string name="filechooser_parent_folder">[返回上一层]</string>
+    <!-- xlistview -->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+</resources>

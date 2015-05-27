@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="weixin_not_install">Weixin app is not installed.</string>
+    <string name="weixin_not_support_api">Interface is not been supported.Please update your Weixin app.</string>
+    <string name="weixin_not_support_timeline">Circle is not been supported.Please update your Weixin app.</string>
+    <string name="weixin_send_success">Your content has been shared to Weixin.</string>
+    <string name="weixin_send_failed">Failed to send.</string>
+	<string name="weixin_send_cancel">Option has been canceled.</string>
+	<string name="weixin_send_deny">Option has been refused.</string>
+	<string name="weixin_send_unknown_error">Unknown error occured.</string>
+</resources>

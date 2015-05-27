@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+	
+	<!-- Crash strs -->
+	<string name="exception_occured">程序出现异常</string>
+	
+	<!-- WebView -->
+	<string name="invalid_url">非法的URL地址</string>
+	<string name="download_file">下载文件</string>
+    <string name="cache_cleared">缓存已清空</string>
+    <string name="has_no_cookie">没有Cookie数据</string>
+    <string name="cookie_cleared">Cookie已清空</string>
+    <string name="history_cleared">浏览记录已清空</string>
+    <string name="has_no_history">没有浏览记录</string>
+    <string name="deny_clear_cookie">当前页面不允许清空Cookie</string>
+    
+    <!-- AppUtil -->
+    <string name="inner_cache_cleared">内部缓存已清空</string>
+    <string name="external_cache_cleared">外部缓存已清空</string>
+    <string name="inner_data_cleared">内部数据已清空</string>
+    <string name="external_data_cleared">外部数据已清空</string>
+    
+    <string name="select_item">请选择</string>
+    
+    <string name="launch_app_failed">无法启动该应用</string>
+    
+    <string name="request_root_failed">获取ROOT权限失败</string>
+    
+    <string name="cannot_access_file">该文件或路径当前用户没有访问权限</string>
+    
+    <string name="check_sdcard">没有可用的扩展存储</string>
+    
+    <string name="is_checking_update">正在检查更新&#8230;</string>
+    
+</resources>

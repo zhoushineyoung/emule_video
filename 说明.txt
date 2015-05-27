@@ -1,0 +1,6 @@
+Helper为主项目.另外两个为库项目。
+
+本项目是个搜索电驴（ed2k）链接的应用,借助于磁力视频播放器（官网：http://loveandroid.duapp.com/ 开放平台），可以实现在线播放视频，也可以用迅雷或者其他下载工具下载。 
+项目源码：http://git.oschina.net/svo/Emule,动态更新。也可从附件中下载。 
+项目源码依赖于两个库项目，库项目一链接：http://git.oschina.net/svo/platform_library 
+库项目二链接：https://github.com/jfeinstein10/SlidingMenu

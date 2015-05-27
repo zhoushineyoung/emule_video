@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ff343434" >
+
+    <RelativeLayout
+        android:id="@+id/frm_user_info"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:background="@drawable/top_login_panel_background"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="15.0dip" >
+		<ImageView 
+		    android:id="@+id/logo"
+		    android:layout_width="32dp"
+		    android:layout_height="32dp"
+		    android:layout_centerVertical="true"
+		    android:layout_marginRight="3dp"
+		    android:src="@drawable/logo"
+		    />
+        <TextView
+            style="@style/SlidingMenu.TextView.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/logo"
+            android:gravity="center_vertical"
+            android:layout_margin="3dip"
+            android:layout_centerVertical="true"
+            android:text="@string/app_name" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/frm_user_info" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/checkNew"
+                style="@style/SlidingMenu.TextView.ItemTitle"
+                android:layout_width="fill_parent"
+                android:drawableLeft="@drawable/icon_exit"
+                android:text="检查更新" />
+
+            <View style="@style/SlidingMenu.View.SplitLine" />
+            <TextView
+                android:id="@+id/share"
+                style="@style/SlidingMenu.TextView.ItemTitle"
+                android:layout_width="fill_parent"
+                android:drawableLeft="@drawable/icon_exit"
+                android:text="分享给小伙伴" />
+
+            <View style="@style/SlidingMenu.View.SplitLine" />
+            <TextView
+                android:id="@+id/feedback"
+                style="@style/SlidingMenu.TextView.ItemTitle"
+                android:layout_width="fill_parent"
+                android:drawableLeft="@drawable/icon_exit"
+                android:text="用户反馈" />
+
+            <View style="@style/SlidingMenu.View.SplitLine" />
+            <TextView
+                android:id="@+id/about"
+                style="@style/SlidingMenu.TextView.ItemTitle"
+                android:layout_width="fill_parent"
+                android:drawableLeft="@drawable/icon_exit"
+                android:text="关于" />
+
+            <View style="@style/SlidingMenu.View.SplitLine" />
+            <TextView
+                android:id="@+id/exit"
+                style="@style/SlidingMenu.TextView.ItemTitle"
+                android:layout_width="fill_parent"
+                android:drawableLeft="@drawable/icon_exit"
+                android:text="退出" />
+
+            <View style="@style/SlidingMenu.View.SplitLine" />
+            
+        </LinearLayout>
+    </ScrollView>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2.0dip"
+        android:layout_below="@id/frm_user_info"
+        android:background="@drawable/top_shadow" />
+
+</RelativeLayout>

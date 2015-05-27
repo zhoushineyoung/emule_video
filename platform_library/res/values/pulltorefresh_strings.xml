@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="ptr_pull_label_start">Pull to refresh</string>
+    <string name="ptr_release_label_start">Release to refresh</string>
+    <string name="ptr_pull_label_end">Pull to load more</string>
+    <string name="ptr_release_label_end">Release to load more</string>
+    <string name="ptr_refreshing_label">loading&#8230;</string>
+    <string name="ptr_no_data">No data</string>
+    <string name="ptr_updated_at">Updated at: </string>
+
+</resources>

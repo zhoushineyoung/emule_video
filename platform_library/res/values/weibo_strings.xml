@@ -1,0 +1,23 @@
+<resources>
+    <string name="weibosdk_attention">Attention</string>
+    <string name="weibosdk_delete_all">Are yout sure to delete all?</string>
+    <string name="weibosdk_ok">OK</string>
+    <string name="weibosdk_cancel">Cancel</string>
+    <string name="weibosdk_app_name">com_weibo_android</string>
+    <string name="weibosdk_send">Send</string>
+    <string name="weibosdk_photo">Photo</string>
+    <string name="weibosdk_close">Close</string>
+    <string name="weibosdk_share_dialog_title">Weibo</string>
+    <string name="weibosdk_please_login">Please login!</string>
+    <string name="weibosdk_send_sucess">Send success.</string>
+    <string name="weibosdk_send_failed">Send failed.</string>
+    <string name="weibosdk_del_pic">Are you sure to delete photo?</string>
+    <string name="weibosdk_comment">Comment</string>
+    <string name="weibosdk_forward">Forward</string>
+    <string name="weibosdk_fav">Favourite</string>
+    <string name="testcontent"></string>
+    
+    <string name="weibo_unknow_error">Unknown error.</string>
+    <string name="weibo_io_error">IO error.</string>
+    <string name="weibo_auth_cancel">Auth canceled.</string>
+</resources>

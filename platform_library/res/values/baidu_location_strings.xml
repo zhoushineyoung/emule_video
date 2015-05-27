@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="bdloc_error_first">Failed in fisrt location</string>
+    <string name="bdloc_error_62">Scan failed to integrate positioning basis</string>
+    <string name="bdloc_error_63">Network exception</string>
+    <string name="bdloc_error_67">Located failed with offline</string>
+    <string name="bdloc_error_162">Located failed with server error</string>
+
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="scan_tip">Please keep your code in the window to scan.</string>
+    <string name="scan_retry">Scan failed.Please try again.</string>
+    <string name="scan_result">Scan result</string>
+</resources>

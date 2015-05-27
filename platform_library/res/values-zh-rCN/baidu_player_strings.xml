@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="downloading">下载中:\n</string>
+    <string name="ret_failed_already_installed">视频引擎已经安装过了</string>
+    <string name="ret_failed_already_running">视频引擎已经在运行</string>
+    <string name="ret_failed_invalid_apk">非法的安装包</string>
+    <string name="ret_failed_network">网络错误</string>
+    <string name="ret_failed_others">未知错误</string>
+    <string name="ret_failed_storage_io">存储错误</string>
+    <string name="ret_new_package_installed">视频引擎安装成功</string>
+    <string name="ret_no_new_package">没有视频引擎安装包</string>
+    <string name="ret_stopped">已停止</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_width="fill_parent" 	
+	android:layout_height="45dp" 
+	android:gravity="center"
+	android:layout_gravity="center"
+	android:orientation="vertical">
+	<com.svo.library.widget.XRTextView 
+		android:id="@+id/tv_item" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:minHeight="45dp"
+		android:gravity="center_vertical" 
+		android:layout_marginLeft="5dp"
+    	android:layout_marginRight="5dp"
+		android:textColor="@android:color/white"
+		android:textSize="18sp"/>
+</LinearLayout>

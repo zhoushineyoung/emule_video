@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+	<include 
+	    android:id="@+id/titleBar"
+	    layout="@layout/layout_title"
+	    />
+    <EditText 
+        android:layout_below="@+id/titleBar"
+	    android:id="@+id/searchEt1"
+	    android:hint="关键词"
+	    android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/bg_edit_search"
+        android:drawableLeft="@drawable/search"
+        android:editable="false"
+        android:focusable="false"
+        android:paddingLeft="8dp"
+        android:drawablePadding="5dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="10dp"
+	    />
+    <EditText 
+	    android:id="@+id/searchEt2"
+	    android:hint="搜索"
+	    android:visibility="gone"
+	    android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/searchEt1"
+        android:background="@drawable/bg_edit_search"
+        android:drawableLeft="@drawable/search"
+        android:editable="false"
+        android:focusable="false"
+        android:paddingLeft="8dp"
+        android:drawablePadding="5dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="10dp"
+	    />
+
+</RelativeLayout>
